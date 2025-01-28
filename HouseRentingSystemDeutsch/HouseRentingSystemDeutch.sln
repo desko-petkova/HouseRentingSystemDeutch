@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystemDeutch", "HouseRentingSystemDeutch.csproj", "{50AB4DD2-40C6-4D7A-8909-37ABAFB50A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystemDeutsch.Core", "..\HouseRentingSystemDeutsch.Core\HouseRentingSystemDeutsch.Core.csproj", "{379391F6-0BF2-4CAC-A182-FCC9FCBCFBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystemDeutsch.Core", "..\HouseRentingSystemDeutsch.Core\HouseRentingSystemDeutsch.Core.csproj", "{379391F6-0BF2-4CAC-A182-FCC9FCBCFBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystemDeutsch.Infrastructure", "..\HouseRentingSystemDeutsch.Infrastructure\HouseRentingSystemDeutsch.Infrastructure.csproj", "{0C8F5E0E-594D-4FB4-B482-E44CD09599E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystemDeutsch.Infrastructure", "..\HouseRentingSystemDeutsch.Infrastructure\HouseRentingSystemDeutsch.Infrastructure.csproj", "{0C8F5E0E-594D-4FB4-B482-E44CD09599E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
