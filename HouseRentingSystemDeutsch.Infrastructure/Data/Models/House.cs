@@ -21,7 +21,7 @@ namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
 
         [Required]
         [MaxLength(500), MinLength(50)]
-        public string Discription { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         [Required]
         public string ImageUrl { get; set; } = string.Empty;
