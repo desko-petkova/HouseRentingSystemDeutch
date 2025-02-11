@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using static HouseRentingSystemDeutsch.Infrastructure.Constants.DataConstants;
 
 namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
 {
@@ -12,15 +13,15 @@ namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(50), MinLength(10)]
+        [MaxLength(TitleMaxLength), MinLength(TitleMinLength)]
         public string Title { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(150), MinLength(30)]
+        [MaxLength(AddressMaxLength), MinLength(AddressMinLength)]
         public string Address { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(500), MinLength(50)]
+        [MaxLength(DescriptionMaxLength), MinLength(DescriptionMinLength)]
         public string Description { get; set; } = string.Empty;
 
         [Required]

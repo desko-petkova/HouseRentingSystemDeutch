@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using static HouseRentingSystemDeutsch.Infrastructure.Constants.DataConstants;
 
 namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
 {
@@ -11,7 +12,7 @@ namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(15), MinLength(7)]
+        [MaxLength(PhoneNumberMaxLength), MinLength(PhoneNumberMinLength)]
         public string PhoneNumber { get; set; } = string.Empty;
 
         [Required]

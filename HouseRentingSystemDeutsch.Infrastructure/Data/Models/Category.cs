@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using static HouseRentingSystemDeutsch.Infrastructure.Constants.DataConstants;
 
 namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
 {
@@ -10,7 +11,7 @@ namespace HouseRentingSystemDeutsch.Infrastructure.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(NameCategoryLength)]
         public string Name { get; set; } = string.Empty;
 
         public List<House> Houses { get; set; } = new List<House>();
